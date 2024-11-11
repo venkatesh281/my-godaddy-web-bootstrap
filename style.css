@@ -1,0 +1,97 @@
+/* CSS to reduce font size of right-aligned links */
+/* Left-aligned link styling */
+
+  .navbar-nav .nav-link {
+    font-size: 15px;
+    color: white !important;
+    font-weight: bold;
+}
+
+
+  /* Right-aligned link styling */
+#navbar2 .nav-link {
+    font-size: 13px;
+    font-weight: normal !important;  
+    color:  white !important;          
+}
+
+/* hover */
+  .navbar-nav .nav-link:hover {
+    color: white !important;  
+    background-color: #776a6a;  
+    border-radius: 5px
+    
+}
+
+.container .card-sm{
+    margin-top: 20PX;
+    height: fit-content;
+   
+}
+/* .card-body {
+    background-color:rgb(223, 223, 223) !important;
+    height: 100px;
+} */
+
+
+.col .form-control{
+    font-weight: bold;
+}
+
+
+.card{
+    margin-left: 10px;
+    background-color: rgb(223, 223, 223) !important;
+   
+    border:  0cap;
+   
+}
+
+/* first banner */
+/* #banner1{
+    height: fit-content;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: orange;
+} */
+
+#banner1, #banner2 {
+    height: fit-content;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    color: white;
+}
+
+#banner1 {
+    background-color: orange;
+  
+}
+
+#banner2 {
+    background-color: teal;
+    
+}
+
+#banner3, #banner4 {
+    
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    /* Reduce padding and font size on smaller screens */
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+    #navbar2 .nav-link {
+        font-size: 12px;
+    }
+}
+/* Adjust spacing for desktop */
+.navbar-nav .nav-link:not(:last-child) {
+    margin-right: 10px;
+}
